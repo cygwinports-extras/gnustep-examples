@@ -1,0 +1,245 @@
+gnustep-examples
+------------------------------------------
+This package provides a full collection of tests for the GNUstep
+GUI libraries.
+
+Runtime requirements:
+  cygwin-1.7.0-56
+  libgcc1-4.3.2-2
+  libGL1-7.2-10
+  libGLU1-7.2-10
+  libgnustep-base1.18-1.18.0-1
+  libgnustep-gui0.16-0.16.0-1
+  libobjc2-4.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.9.9-1
+  gcc4-core-4.3.2-2
+  gcc4-objc-4.3.2-2
+  gnustep-make-2.2.0-1
+  make-3.81-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnustep.org/
+
+Canonical download:
+  http://ftpmain.gnustep.org/pub/gnustep/core/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnustep-examples-1.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnustep-examples-1.2.0-X.cygport all
+
+This will create:
+  /usr/src/gnustep-examples-1.2.0-X-src.tar.bz2
+  /usr/src/gnustep-examples-1.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+  /usr/bin/Calculator
+  /usr/bin/CurrencyConverter
+  /usr/bin/Finger
+  /usr/bin/GFractal
+  /usr/bin/GSTest
+  /usr/bin/HostAddress
+  /usr/bin/Ink
+  /usr/bin/MyGL
+  /usr/bin/NSBrowserTest
+  /usr/bin/NSImageTest
+  /usr/bin/NSPanelTest
+  /usr/bin/NSScreenTest
+  /usr/bin/ToolbarExample
+  /usr/bin/md5Digest
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/Composite-test.bundle/Composite-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/Composite-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/Composite-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/CoordinateCheck-test.bundle/CoordinateCheck-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/CoordinateCheck-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/CoordinateCheck-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/GSHbox-test.bundle/GSHbox-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/GSHbox-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/GSHbox-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/KeyboardInput-test.bundle/KeyboardInput-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/KeyboardInput-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/KeyboardInput-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSAnimation-test.bundle/NSAnimation-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSAnimation-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSAnimation-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSBox-test.bundle/NSBox-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSBox-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSBox-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorList-test.bundle/NSColorList-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorList-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorList-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorWell-test.bundle/NSColorWell-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorWell-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSColorWell-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSForm-test.bundle/NSForm-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSForm-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSForm-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSOutlineView-test.bundle/NSOutlineView-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSOutlineView-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSOutlineView-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSavePanel-test.bundle/NSSavePanel-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSavePanel-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSavePanel-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSScrollView-test.bundle/NSScrollView-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSScrollView-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSScrollView-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSecureTextField-test.bundle/NSSecureTextField-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSecureTextField-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSecureTextField-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSlider-test.bundle/NSSlider-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSlider-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSlider-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSplitView-test.bundle/NSSplitView-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSplitView-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSSplitView-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTableView-test.bundle/NSTableView-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTableView-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTableView-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTextView-test.bundle/NSTextView-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTextView-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSTextView-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSViewAnimation-test.bundle/NSViewAnimation-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSViewAnimation-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSViewAnimation-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSWindowStyleMask-test.bundle/NSWindowStyleMask-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSWindowStyleMask-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/NSWindowStyleMask-test.bundle/stamp.make
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/StringDrawing-test.bundle/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/StringDrawing-test.bundle/StringDrawing-test.dll
+  /usr/lib/GNUstep/ApplicationSupport/GSTest/StringDrawing-test.bundle/stamp.make
+  /usr/lib/GNUstep/Applications/Calculator.app/Calculator.exe
+  /usr/lib/GNUstep/Applications/Calculator.app/Calculator.exe.a
+  /usr/lib/GNUstep/Applications/Calculator.app/Resources/Calculator.app.tiff
+  /usr/lib/GNUstep/Applications/Calculator.app/Resources/Calculator.desktop
+  /usr/lib/GNUstep/Applications/Calculator.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/Calculator.app/stamp.make
+  /usr/lib/GNUstep/Applications/CurrencyConverter.app/CurrencyConverter.exe
+  /usr/lib/GNUstep/Applications/CurrencyConverter.app/CurrencyConverter.exe.a
+  /usr/lib/GNUstep/Applications/CurrencyConverter.app/Resources/CurrencyConverter.desktop
+  /usr/lib/GNUstep/Applications/CurrencyConverter.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/CurrencyConverter.app/stamp.make
+  /usr/lib/GNUstep/Applications/Finger.app/Finger.exe
+  /usr/lib/GNUstep/Applications/Finger.app/Finger.exe.a
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/Finger.desktop
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/finger.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/finger32.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/ping.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/ping32.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/stop.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/stop32.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/traceroute.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/traceroute32.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/whois.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/Resources/whois32.tiff
+  /usr/lib/GNUstep/Applications/Finger.app/stamp.make
+  /usr/lib/GNUstep/Applications/GFractal.app/GFractal.exe
+  /usr/lib/GNUstep/Applications/GFractal.app/GFractal.exe.a
+  /usr/lib/GNUstep/Applications/GFractal.app/Resources/GFractal.desktop
+  /usr/lib/GNUstep/Applications/GFractal.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/GFractal.app/stamp.make
+  /usr/lib/GNUstep/Applications/GSTest.app/GSTest.exe
+  /usr/lib/GNUstep/Applications/GSTest.app/GSTest.exe.a
+  /usr/lib/GNUstep/Applications/GSTest.app/Resources/GSTest.desktop
+  /usr/lib/GNUstep/Applications/GSTest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/GSTest.app/Resources/MainMenu.gorm/data.classes
+  /usr/lib/GNUstep/Applications/GSTest.app/Resources/MainMenu.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/GSTest.app/stamp.make
+  /usr/lib/GNUstep/Applications/HostAddress.app/HostAddress.exe
+  /usr/lib/GNUstep/Applications/HostAddress.app/HostAddress.exe.a
+  /usr/lib/GNUstep/Applications/HostAddress.app/Resources/HostAddress.desktop
+  /usr/lib/GNUstep/Applications/HostAddress.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/HostAddress.app/stamp.make
+  /usr/lib/GNUstep/Applications/Ink.app/Ink.exe
+  /usr/lib/GNUstep/Applications/Ink.app/Ink.exe.a
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Document.gorm/data.classes
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Document.gorm/data.info
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Document.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/English.lproj/MainMenu.gorm/data.classes
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/English.lproj/MainMenu.gorm/data.info
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/English.lproj/MainMenu.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/FileIcon_rtf.tiff
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/FileIcon_txt.tiff
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Ink.desktop
+  /usr/lib/GNUstep/Applications/Ink.app/Resources/Ink_app.tiff
+  /usr/lib/GNUstep/Applications/Ink.app/stamp.make
+  /usr/lib/GNUstep/Applications/MyGL.app/MyGL.exe
+  /usr/lib/GNUstep/Applications/MyGL.app/MyGL.exe.a
+  /usr/lib/GNUstep/Applications/MyGL.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/MyGL.app/Resources/MyGL.desktop
+  /usr/lib/GNUstep/Applications/MyGL.app/Resources/MyGL.gorm/data.classes
+  /usr/lib/GNUstep/Applications/MyGL.app/Resources/MyGL.gorm/data.info
+  /usr/lib/GNUstep/Applications/MyGL.app/Resources/MyGL.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/MyGL.app/stamp.make
+  /usr/lib/GNUstep/Applications/NSBrowserTest.app/NSBrowserTest.exe
+  /usr/lib/GNUstep/Applications/NSBrowserTest.app/NSBrowserTest.exe.a
+  /usr/lib/GNUstep/Applications/NSBrowserTest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/NSBrowserTest.app/Resources/NSBrowserTest.desktop
+  /usr/lib/GNUstep/Applications/NSBrowserTest.app/stamp.make
+  /usr/lib/GNUstep/Applications/NSImageTest.app/NSImageTest.exe
+  /usr/lib/GNUstep/Applications/NSImageTest.app/NSImageTest.exe.a
+  /usr/lib/GNUstep/Applications/NSImageTest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/NSImageTest.app/Resources/NSImageTest.desktop
+  /usr/lib/GNUstep/Applications/NSImageTest.app/stamp.make
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/NSPanelTest.exe
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/NSPanelTest.exe.a
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/Resources/NSPanelTest.desktop
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/Resources/Test.strings
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/Resources/icon.tiff
+  /usr/lib/GNUstep/Applications/NSPanelTest.app/stamp.make
+  /usr/lib/GNUstep/Applications/NSScreenTest.app/NSScreenTest.exe
+  /usr/lib/GNUstep/Applications/NSScreenTest.app/NSScreenTest.exe.a
+  /usr/lib/GNUstep/Applications/NSScreenTest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/NSScreenTest.app/Resources/NSScreenTest.desktop
+  /usr/lib/GNUstep/Applications/NSScreenTest.app/stamp.make
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/DocumentWindow.gorm/data.classes
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/DocumentWindow.gorm/data.info
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/DocumentWindow.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/FileIcon_Directory.tiff
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/RecyclerFull.tiff
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/SecondImage.tiff
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/SecondWindow.gorm/data.classes
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/SecondWindow.gorm/data.info
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/SecondWindow.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/ToolbarExample.desktop
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/ToolbarExample.gorm/data.classes
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/ToolbarExample.gorm/data.info
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/ToolbarExample.gorm/objects.gorm
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/Resources/ToolbarExampleInfo.plist
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/ToolbarExample.exe
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/ToolbarExample.exe.a
+  /usr/lib/GNUstep/Applications/ToolbarExample.app/stamp.make
+  /usr/lib/GNUstep/Applications/md5Digest.app/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Applications/md5Digest.app/Resources/md5Digest.desktop
+  /usr/lib/GNUstep/Applications/md5Digest.app/md5Digest.exe
+  /usr/lib/GNUstep/Applications/md5Digest.app/md5Digest.exe.a
+  /usr/lib/GNUstep/Applications/md5Digest.app/stamp.make
+  /usr/lib/GNUstep/Services/example.service/Resources/Info-gnustep.plist
+  /usr/lib/GNUstep/Services/example.service/example.exe
+  /usr/share/doc/gnustep-examples/ChangeLog
+  /usr/share/doc/gnustep-examples/README
+
+------------------
+
+Port Notes:
+
+----- version 1.2.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

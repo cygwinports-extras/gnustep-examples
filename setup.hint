@@ -1,0 +1,5 @@
+category: GNUstep
+requires: libgcc1 libGL1 libGLU1 libgnustep-base1.18 libgnustep-gui0.16 libobjc2
+sdesc: "GNUstep example and test programs"
+ldesc: "This package provides a full collection of tests for the GNUstep
+GUI libraries."

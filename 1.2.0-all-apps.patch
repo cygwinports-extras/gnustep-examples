@@ -1,0 +1,16 @@
+--- origsrc/gnustep-examples-1.2.0/gui/GNUmakefile	2007-05-23 23:11:28.000000000 -0500
++++ src/gnustep-examples-1.2.0/gui/GNUmakefile	2009-08-04 18:49:25.526708100 -0500
+@@ -28,9 +28,13 @@ SUBPROJECTS =             \
+ 	Calculator        \
+ 	Classes           \
+ 	CurrencyConverter \
++	Finger            \
++	GFractal          \
++	HostAddress       \
+ 	Ink               \
+ 	ExampleService    \
+ 	MyGL		  \
++	ToolbarExample    \
+ 	GSTest
+ 
+ include GNUmakefile.preamble
