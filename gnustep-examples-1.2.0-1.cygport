@@ -1,6 +1,6 @@
 inherit gnustep
 
 DESCRIPTION="GNUstep sample programs"
-HOMEPAGE="http://www.gnustep.org/"
+
 SRC_URI="mirror://gnustep/core/${P}.tar.gz"
 PATCH_URI="1.2.0-all-apps.patch"
